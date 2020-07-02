@@ -8,13 +8,12 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
-        <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+        <h1>Mining World</h1>
+        <p style={{fontWeight:'bold'}}>
+          <span style={{display:'block',width:'100%',marginBottom:'10px',fontSize:17}}>Mineral Trading Platform.</span>
+         <span style={{display:'block',width:'100%'}}> Providing most recent industry News, Resources. </span> 
+         <span style={{display:'block',width:'100%',marginBottom:'10px'}}> Providing most secure transcation for clients. </span>
+         <span style={{fontSize:17}}>Start Your Trading Today</span>
         </p>
       </div>
     </div>
@@ -26,7 +25,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            Problem We Solve
           </button>
         </li>
         <li>
@@ -35,7 +34,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Work We Did
           </button>
         </li>
         <li>
@@ -44,7 +43,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            About Our Company
           </button>
         </li>
         <li>
