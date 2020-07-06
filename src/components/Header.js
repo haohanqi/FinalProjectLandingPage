@@ -14,6 +14,7 @@ const Header = props => (
          <span style={{display:'block',width:'100%'}}> Providing most recent industry News, Resources. </span> 
          <span style={{display:'block',width:'100%',marginBottom:'10px'}}> Providing most secure transcation for clients. </span>
          <span style={{fontSize:17}}>Start Your Trading Today</span>
+         <button style={{display:"block",width:'100%',marginTop:'10px',fontSize:17,borderWidth:2,borderColor:'red'}}>DownLoad App</button>
         </p>
       </div>
     </div>
